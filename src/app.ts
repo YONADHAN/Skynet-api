@@ -15,8 +15,8 @@ app.set('trust proxy', 1) // 🔥 REQUIRED for Render/Vercel (secure cookies)
 
 // Middlewares
 const allowedOrigins = [
-  // 'http://localhost:5173',
-  // 'http://localhost:3000',
+  'http://localhost:5173',
+  'http://localhost:3000',
   'https://skynet-admin.vercel.app',
   'https://skynet-client.vercel.app',
 ]
